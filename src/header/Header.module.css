@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: rgb(68, 66, 66);
+  border-bottom: 3px solid #6ddbffda;
+  top: 0%;
+  z-index: 0;
+  padding: 10px;
+  justify-content: space-around;
+  column-gap: 20%;
+}
+
+.header li {
+  list-style: none;
+  display: inline-block;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  margin: 0 80px 0 0;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}

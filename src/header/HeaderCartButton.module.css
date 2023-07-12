@@ -1,0 +1,22 @@
+.button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: right;
+
+  border-radius: 5px;
+  color: rgb(3, 3, 0);
+  background-color: rgb(255, 255, 255);
+
+  cursor: pointer;
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+.button span {
+    
+    font-size: 30px;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}

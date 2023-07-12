@@ -1,0 +1,51 @@
+.div {
+  flex-basis: 40%;
+  margin-bottom: 50px;
+}
+
+.div .image {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  margin: auto;
+  box-shadow: 5px 5px 10px black;
+}
+
+.div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 2s;
+  
+}
+
+.div img:hover {
+  transform: scale(140%);
+}
+
+.div h2 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.div .detail {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.div span {
+  padding: 10px 20px 10px 20px;
+  border: 2px solid rgb(255, 0, 0);
+  border-radius: 5px;
+}
+
+.div button {
+  cursor: pointer;
+}
+
+.div button:hover {
+  background-color: rgb(255, 0, 0);
+  color: black;
+}
